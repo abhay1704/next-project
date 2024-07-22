@@ -1,0 +1,55 @@
+.full-dev-cycle {
+  padding: 5% 8%;
+  border-top: solid 1px #e9ecef;
+  line-height: 1.5rem;
+}
+
+.full-dev-cycle__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.full-dev-cycle__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.full-dev-cycle__topics {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 20%;
+}
+
+.full-dev-cycle__topic {
+  font-size: 1.2rem;
+  font-weight: 300;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.full-dev-cycle__topic:hover {
+  font-weight: 400;
+  border-bottom: 1px solid #a2e22c;
+}
+
+.full-dev-cycle__topic::after {
+  content: ">";
+  margin-left: 10px;
+}
+
+.full-dev-cycle__content {
+  width: 50%;
+}
+
+.full-dev-cycle__category-technologies {
+  opacity: 0.8;
+  margin: 1rem auto;
+}
+
+.full-dev-cycle__categories {
+  padding: 2rem 0;
+}

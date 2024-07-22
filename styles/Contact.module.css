@@ -1,0 +1,22 @@
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 5rem;
+  width: 100%;
+  background: linear-gradient(
+    var(--md-sys-color-primary-container),
+    var(--md-sys-color-secondary-container)
+  );
+}
+
+#contact-card {
+  background-color: var(--md-sys-color-on-primary) !important;
+}
+
+.container {
+  padding: 2rem 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}

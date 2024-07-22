@@ -1,0 +1,20 @@
+.numbers {
+  display: flex;
+  gap: 4rem;
+  margin: 2rem auto;
+}
+
+.numbers h2 {
+  font-size: 3rem;
+  color: rgba(34, 32, 37, 0.888);
+  margin-bottom: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  padding-right: 2rem;
+}

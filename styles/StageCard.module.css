@@ -1,0 +1,31 @@
+.card {
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem auto;
+  gap: 1rem;
+
+  max-width: 500px;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+}
+
+.heading {
+  font-size: 1.5rem;
+  color: rgba(34, 32, 37, 0.888);
+}
+
+.about {
+  margin: 2rem auto;
+  padding: 1rem;
+}

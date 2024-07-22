@@ -1,0 +1,56 @@
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+  width: 95%;
+  border-radius: 20px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto;
+  width: 70%;
+  text-align: center;
+}
+
+.contact {
+  width: 30%;
+  text-align: left;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer p {
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+}

@@ -1,0 +1,48 @@
+.top-industries {
+  padding: 2rem 2rem 4rem 2rem;
+  background-color: var(--md-sys-color-surface-container-lowest);
+  padding: 5rem;
+}
+
+.top-industries h1 {
+  width: 80%;
+  display: inline-block;
+}
+
+.industry-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  background-color: var(--md-sys-color-surface-container-low);
+  border-radius: 50%;
+  padding: 10px;
+  color: var(--md-sys-color-primary-container);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.industry-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.industries {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 3rem;
+  width: 80%;
+  text-align: center;
+}
+
+.industry {
+  width: 30%;
+  margin-bottom: 1rem;
+  display: flex;
+  text-align: left;
+  gap: 1rem;
+}

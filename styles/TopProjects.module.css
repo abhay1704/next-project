@@ -1,0 +1,84 @@
+.tab-content {
+  padding: 3rem 0;
+}
+
+.tab-pane {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-tech {
+  margin: 1.5rem auto;
+  color: rgba(34, 32, 37, 0.888);
+}
+
+.tab-text {
+  width: 60%;
+}
+
+.about {
+  margin: 2rem auto;
+  padding: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.about * {
+  font-size: 1.2rem;
+}
+
+.about div {
+  display: flex;
+  gap: 1rem;
+}
+
+.numbers {
+  display: flex;
+  gap: 4rem;
+  margin: 2rem auto;
+}
+
+.number h2 {
+  font-size: 2rem;
+  color: rgba(34, 32, 37, 0.888);
+}
+
+.number p {
+  margin-top: 1rem;
+  color: rgba(34, 32, 37, 0.888);
+}
+
+.tab-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  max-width: 500px;
+  align-self: flex-start;
+  padding-left: 4rem;
+}
+
+.tab {
+  font-size: 1.3rem;
+  color: rgba(34, 32, 37, 0.888);
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.tab--active {
+  color: black;
+  font-weight: 500;
+  border-bottom: solid 3px orange;
+}
+
+.tab-content {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+}
+
+.tab-pane {
+  min-width: 100%;
+  padding: 0 3rem;
+  transition: all 0.5s;
+}
